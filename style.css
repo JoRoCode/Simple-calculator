@@ -1,0 +1,64 @@
+*/ {
+    margin: 0;
+    padding: 0;
+}
+
+/* this sets the basic container*/
+
+#calculator {
+    background-color: rgb(31, 30, 30);
+    padding: 20px;
+    width:215px;
+    margin-right:40%;
+    margin-left:40%;
+}
+
+/* this will style the display of the calculator*/
+
+#display { 
+    color: white;
+    height: 25px;
+    margin: 15px;
+    padding: 5px;
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+
+/* this will set the basic paramaters for the buttons*/
+
+button {
+    color: white;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-family: cursive;
+    font-size: 20px;
+    border-style: none;
+
+}
+
+/* this will change the color of the operator buttons*/
+
+.operator {
+    background-color: rgb(255, 132, 0);
+}
+
+/* this will style the equal button*/
+
+#equals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    color: black;
+    background-color: lightgray;
+    
+}
